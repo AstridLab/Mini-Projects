@@ -24,15 +24,26 @@ Skills Demonstrated: Data cleaning, time-series analysis, grouping, visualizatio
 
 Overview: Explored age distribution, common medical conditions, monthly hospital admissions, and compared trends by hospital and admission type.
 
+3. Hospital Length of Stay Prediction
 
-How to Run
+Overview
+This mini project predicts patient length of stay in a hospital using a sample healthcare dataset. It demonstrates:
+- Data cleaning and preprocessing
+- Feature encoding
+- Linear Regression model training
+- Model evaluation (Mean Squared Error)
+- Visualization of predicted vs actual values
 
-Clone this repository:
+How to run
+1. Open `Hospital_LengthOfStay_Project.ipynb` in Google Colab.
+2. Upload the CSV dataset when prompted.
+3. Run all cells from top to bottom.
 
-git clone https://github.com/yourusername/mini-projects.git
-
-
-Open the project folder you want.
+ Key Findings
+- Mean Squared Error: 2.39
+- Predictions are on average within ~1.55 days of actual length of stay.
+- Features like gender, dialysis stage, asthma, and iron deficiency contribute to predicting stay duration.
+ 
 
 Open the Jupyter Notebook (.ipynb) in your preferred environment (Jupyter Lab, VS Code, or Google Colab).
 
